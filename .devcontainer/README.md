@@ -65,13 +65,13 @@ These will be accessible on your host machine when running the Monero daemon.
 After building, you can run the Monero daemon:
 
 ```bash
-./build/Linux/master/release/bin/monerod
+./build/release/bin/monerod
 ```
 
 Or the wallet CLI:
 
 ```bash
-./build/Linux/master/release/bin/monero-wallet-cli
+./build/release/bin/monero-wallet-cli
 ```
 
 ## Customization

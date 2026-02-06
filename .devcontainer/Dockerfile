@@ -1,4 +1,4 @@
-# Monero Development Container for VS Code Insiders
+# Monero Development Container for VS Code
 FROM ubuntu:22.04
 
 # Avoid warnings by switching to noninteractive

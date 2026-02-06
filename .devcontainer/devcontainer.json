@@ -47,7 +47,7 @@
 "onAutoForward": "notify"
 }
 },
-"postCreateCommand": "git submodule update --init --recursive",
+"postCreateCommand": "git submodule update --init --recursive && echo 'Submodules initialized successfully'",
 "remoteUser": "vscode",
 "features": {
 "ghcr.io/devcontainers/features/git:1": {},
