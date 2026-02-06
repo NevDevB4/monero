@@ -29,7 +29,7 @@ This development container includes:
 
 ## Getting Started
 
-1. Open VS Code Insiders
+1. Open VS Code (or VS Code Insiders)
 2. Open this repository folder
 3. When prompted, click "Reopen in Container" (or use Command Palette: `Dev Containers: Reopen in Container`)
 4. Wait for the container to build (first time will take several minutes)
