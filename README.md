@@ -20,6 +20,7 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
   - [Release staging schedule and protocol](#release-staging-schedule-and-protocol)
   - [Compiling Monero from source](#compiling-monero-from-source)
     - [Dependencies](#dependencies)
+    - [Using VS Code Dev Containers](#using-vs-code-dev-containers-optional)
     - [Guix builds](#guix-builds)
   - [Internationalization](#Internationalization)
   - [Using Tor](#using-tor)
@@ -238,6 +239,17 @@ cd monero && git submodule init && git submodule update
 *Note*: If there are submodule differences between branches, you may need 
 to use `git submodule sync && git submodule update` after changing branches
 to build successfully.
+
+### Using VS Code Dev Containers (Optional)
+
+For a quick and easy development environment setup, you can use Visual Studio Code with Dev Containers:
+
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop)
+2. Install [Visual Studio Code](https://code.visualstudio.com/) or [VS Code Insiders](https://code.visualstudio.com/insiders/)
+3. Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+4. Open the repository in VS Code and click "Reopen in Container" when prompted
+
+The devcontainer includes all necessary dependencies, build tools, and VS Code extensions pre-configured for Monero development. See [.devcontainer/README.md](.devcontainer/README.md) for more details.
 
 ### Build instructions
 
